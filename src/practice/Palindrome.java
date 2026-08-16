@@ -26,7 +26,26 @@ public class Palindrome {
 	    	  System.out.println("Not palindrome");
 		
 	}
-		sc.close();
+	
+		System.out.println("Enter a No");
+		int num = sc.nextInt();
+		
+		int original = num;
+		int reverse = 0;
+		
+		while(num>0){
+			
+			int digit = num%10;
+			reverse = reverse *10 + digit;
+		    num = num/10;
+			
+}
+		System.out.println(original == reverse ? "Palindrome" : "Not Palindrome");
+		
+sc.close();
 	}
+
+	
+	
 
 }
