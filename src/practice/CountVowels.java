@@ -11,6 +11,10 @@ public class CountVowels {
 		int countv = 0;
 		int countc = 0;
 		
+//		String b[8] = {Shre, shivani, avi};
+//		
+//		System.out.println();
+//		
 		Set<Character> set = new HashSet<>(
 		Arrays.asList('a', 'e', 'i', 'o', 'u')
 		);
@@ -37,5 +41,7 @@ public class CountVowels {
 	
 
 	}
+
+
 
 
